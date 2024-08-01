@@ -26,8 +26,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 
 To run the web application, follow these steps:
    1. Clone the repository
-   2. Run python app.py in the terminal
-   3. Open the web application in the browser at http://localhost:5000
+   2. Open the web application in the browser at http://localhost:5000
 
 # Flask
 A Flask API has been created to show the data analysis results in JSON format, as well as all available routes.
@@ -47,11 +46,11 @@ The available API routes are:
 
 <img width="620" alt="3" src="https://github.com/user-attachments/assets/fabedafe-d35d-47f3-b5cb-3ceb141024ab">
 
-- /api/v1.0/start: Return a JSON list of the minimum, average, and maximum temperature.
+- /api/v1.0/<start>: Return a JSON list of the minimum, average, and maximum temperature.
 
  <img width="533" alt="4" src="https://github.com/user-attachments/assets/2acaa054-4fc9-48f2-9453-c24a4bca6ff5">
 
-- /api/v1.0/start/end: Return a JSON list of the minimum, average, and maximum temperature for the specified date range.
+- /api/v1.0/<start>/<end>: Return a JSON list of the minimum, average, and maximum temperature for the specified date range.
 
  <img width="521" alt="5" src="https://github.com/user-attachments/assets/167a736a-8471-46a8-88d0-7d236aed0554">
 
