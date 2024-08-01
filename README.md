@@ -36,8 +36,23 @@ The available API routes are:
 
 - /: List all available routes.
 - /api/v1.0/precipitation: Return a JSON dictionary of date and precipitation values.
+
+ <img width="932" alt="1" src="https://github.com/user-attachments/assets/102e5499-1b51-4b21-8e26-ef5d131af446">
+
 - /api/v1.0/stations: Return a JSON list of weather stations.
-- /api/v1.0/tobs: Return a JSON list of temperature observations for the most active station in the last 12 months.
-- /api/v1.0/<start>: Return a JSON list of the minimum, average, and maximum temperature for all dates greater than or equal to the specified start date.
-- /api/v1.0/<start>/<end>: Return a JSON list of the minimum, average, and maximum temperature for the specified date range.
+
+<img width="710" alt="2" src="https://github.com/user-attachments/assets/ad7a98b7-8917-4a83-9b84-3890c4346441">
+  
+- /api/v1.0/tobs: Return a JSON list of temperature observations.
+
+<img width="620" alt="3" src="https://github.com/user-attachments/assets/fabedafe-d35d-47f3-b5cb-3ceb141024ab">
+
+- /api/v1.0/start: Return a JSON list of the minimum, average, and maximum temperature.
+
+ <img width="533" alt="4" src="https://github.com/user-attachments/assets/2acaa054-4fc9-48f2-9453-c24a4bca6ff5">
+
+- /api/v1.0/start/end: Return a JSON list of the minimum, average, and maximum temperature for the specified date range.
+
+ <img width="521" alt="5" src="https://github.com/user-attachments/assets/167a736a-8471-46a8-88d0-7d236aed0554">
+
 
